@@ -1,0 +1,25 @@
+#hero {
+  height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(38, 50, 56, 0.7),
+      rgba(38, 50, 56, 0.7)
+    ),
+    url("../img/wave.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.input-field {
+  width: 400px;
+  margin: 0 auto 50px;
+}
+
+.select-wrapper span.caret {
+  color: #f3edd9;
+}

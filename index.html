@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SD Surf Report</title>
+    <link rel="stylesheet" href="assets/css/materialize.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="blue-grey darken-3">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center grey-text text-lighten-5">
+            SD Surf
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section" id="hero">
+        <div class="container center-align">
+          <h4 class="grey-text text-lighten-5">Check Conditions</h4>
+          <form action="#">
+            <div class="input-field col m6 s12 grey-text text-lighten-5">
+              <select id="surf-search" class="grey-text text-lighten-5">
+                <option value="" disabled selected>Choose your location</option>
+                <option value="1">Trestles</option>
+                <option value="2">Oceanside</option>
+                <option value="3">Carlsbad</option>
+                <option value="4">Encinitas</option>
+                <option value="5">Del Mar</option>
+                <option value="5">La Jolla North</option>
+                <option value="5">La Jolla South</option>
+                <option value="6">Pacific Beach</option>
+                <option value="7">Mission Beach</option>
+                <option value="8">Ocean Beach</option>
+                <option value="9">Point Loma</option>
+                <option value="10">Coronado</option>
+                <option value="11">Imperial Beach</option>
+              </select>
+            </div>
+            <a
+              id="surf-report-btn"
+              class="waves-effect waves-light btn blue-grey lighten-3 black-text"
+              >Get Surf Report</a
+            >
+          </form>
+        </div>
+      </section>
+      <section id="report" class="section blue-grey darken-3">
+        <div class="container">
+          <h4 class="white-text">Today: December 21, 2020</h4>
+          <!--Row-->
+          <div class="row">
+            <!--Waves-->
+            <div class="col s12 m6">
+              <div class="card blue-grey lighten-4">
+                <div class="card-content">
+                  <span class="card-title">Morning</span>
+                  <div>
+                    <h5>Sunrise</h5>
+                    <span>6:15 am</span>
+                  </div>
+                  <div>
+                    <h5>Waves</h5>
+                    <span>Height: 2-3 ft</span>
+                    <span>Direction: South Southwest</span>
+                  </div>
+                  <div>
+                    <h5>Tide</h5>
+                    <span>Low: 6am 1.2ft</span>
+                    <span>High: 12pm 3.5ft</span>
+                  </div>
+                  <div>
+                    <h5>Temperature</h5>
+                    <span>Air: 69F</span>
+                    <span>Sea: 65F</span>
+                  </div>
+                  <div>
+                    <h5>Wind</h5>
+                    <span>Speed: 3 knots</span>
+                    <span>Direction: Southwest</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Afternoon-->
+            <div class="col s12 m6">
+              <div class="card blue-grey lighten-4">
+                <div class="card-content">
+                  <span class="card-title">Afternoon</span>
+                  <div>
+                    <h5>Sunset</h5>
+                    <span>7:05 pm</span>
+                  </div>
+                  <div>
+                    <h5>Waves</h5>
+                    <span>Height: 2-3 ft</span>
+                    <span>Direction: South Southwest</span>
+                  </div>
+                  <div>
+                    <h5>Tide</h5>
+                    <span>Low: 6pm 1.7ft</span>
+                    <span>High: 12am 4.5ft</span>
+                  </div>
+                  <div>
+                    <h5>Temperature</h5>
+                    <span>Air: 64F</span>
+                    <span>Sea: 65F</span>
+                  </div>
+                  <div>
+                    <h5>Wind</h5>
+                    <span>Speed: 5 knots</span>
+                    <span>Direction: Southwest</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="section blue-grey lighten-4" id="forecast">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <div class="card">
+                <div class="card-content">
+                  <span class="card-title">8 Day Forecast</span>
+                  <div class="row">
+                    <div class="card col s6 m3">
+                      <div class="card-content">
+                        <span>7/4/2020</span>
+                        <p>Waves: South Southwest 2-3ft</p>
+                        <p>Wind: Northwest 3 knots</p>
+                      </div>
+                    </div> 
+                    <div class="card col s6 m3">
+                      <div class="card-content">
+                        <span>7/5/2020</span>
+                        <p>Waves: South Southwest 2-3ft</p>
+                        <p>Wind: Northwest 3 knots</p>
+                      </div>
+                    </div>  
+                    <div class="card col s6 m3">
+                      <div class="card-content">
+                        <span>7/6/2020</span>
+                        <p>Waves: South Southwest 2-3ft</p>
+                        <p>Wind: Northwest 3 knots</p>
+                      </div>
+                    </div> 
+                    <div class="card col s6 m3">
+                      <div class="card-content">
+                        <span>7/7/2020</span>
+                        <p>Waves: South Southwest 2-3ft</p>
+                        <p>Wind: Northwest 3 knots</p>
+                      </div>
+                    </div> 
+                  </div>
+
+                  <div class="row">
+                    <div class="card col s6 m3">
+                      <div class="card-content">
+                        <span>7/8/2020</span>
+                        <p>Waves: South Southwest 2-3ft</p>
+                        <p>Wind: Northwest 3 knots</p>
+                      </div>
+                    </div> 
+                    <div class="card col s6 m3">
+                      <div class="card-content">
+                        <span>7/9/2020</span>
+                        <p>Waves: South Southwest 2-3ft</p>
+                        <p>Wind: Northwest 3 knots</p>
+                      </div>
+                    </div>  
+                    <div class="card col s6 m3">
+                      <div class="card-content">
+                        <span>7/10/2020</span>
+                        <p>Waves: South Southwest 2-3ft</p>
+                        <p>Wind: Northwest 3 knots</p>
+                      </div>
+                    </div> 
+                    <div class="card col s6 m3">
+                      <div class="card-content">
+                        <span>7/11/2020</span>
+                        <p>Waves: South Southwest 2-3ft</p>
+                        <p>Wind: Northwest 3 knots</p>
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer blue-grey darken-3">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">SD Surf Report</h5>
+            <p class="grey-text text-lighten-4">Your local surf report. Kept simple.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Extra Info</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Back to Top</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2020 Copyright Dan Riches
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
+        
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/materialize.min.js"></script>
+    <script src="assets/js/init.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
